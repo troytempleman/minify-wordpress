@@ -1,0 +1,277 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: minify\n"
+"Report-Msgid-Bugs-To: https://github.com/troytempleman/minify-wordpress\n"
+"POT-Creation-Date: 2019-02-16 22:20:07+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Troy Templeman <troy@troytempleman.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: common.php:77
+msgid "You are using WordPress version %s."
+msgstr ""
+
+#: common.php:78
+msgid "%s recommends that you use WordPress %s or newer."
+msgstr ""
+
+#: common.php:81
+msgid "%sPlease update!%s"
+msgstr ""
+
+#: common.php:88
+msgid "%s options has been updated."
+msgstr ""
+
+#: common.php:94
+msgid "%s options has been upgraded."
+msgstr ""
+
+#: common.php:100
+msgid "%s options has been reset."
+msgstr ""
+
+#: common.php:106
+msgid "%s cache has been cleared."
+msgstr ""
+
+#: common.php:112
+msgid "%s options imported."
+msgstr ""
+
+#: common.php:118
+msgid "%s options import failed!"
+msgstr ""
+
+#: common.php:124
+msgid "Did not receive any file to be imported. %s options import failed!"
+msgstr ""
+
+#: common.php:130
+msgid "Found syntax errors in file being imported. %s options import failed!"
+msgstr ""
+
+#: minify-settings.php:3
+msgid "All of options will return to default settings.\t Are you sure you want to reset all settings?"
+msgstr ""
+
+#: minify-settings.php:18
+#: minify-settings.php:71
+msgid "Show Advanced Settings"
+msgstr ""
+
+#: minify-settings.php:35
+#: minify-settings.php:66
+msgid "Hide Advanced Settings"
+msgstr ""
+
+#: minify-settings.php:87
+msgid "About"
+msgstr ""
+
+#: minify-settings.php:88
+#: minify-settings.php:90
+msgid "Minify"
+msgstr ""
+
+#: minify-settings.php:89
+msgid "minifies and concatenates HTML, CSS and Javascript in WordPress themes to reduce page size, load time and http requests. Based on "
+msgstr ""
+
+#: minify-settings.php:91
+msgid "by Steve Clay. Successor of"
+msgstr ""
+
+#: minify-settings.php:92
+msgid "WP Minify"
+msgstr ""
+
+#: minify-settings.php:93
+msgid "plugin by Thaya Kareeson and"
+msgstr ""
+
+#: minify-settings.php:94
+msgid "WP Minify Fix"
+msgstr ""
+
+#: minify-settings.php:95
+msgid "plugin by NodeCode. Updated to Minify 3.0.3"
+msgstr ""
+
+#: minify-settings.php:104
+msgid "General Configuration"
+msgstr ""
+
+#: minify-settings.php:105
+msgid "Enable JavaScript Minification"
+msgstr ""
+
+#: minify-settings.php:106
+msgid "Enable CSS Minification"
+msgstr ""
+
+#: minify-settings.php:107
+msgid "Enable HTML Minification"
+msgstr ""
+
+#: minify-settings.php:115
+msgid "Debugging"
+msgstr ""
+
+#: minify-settings.php:116
+msgid "Combine files but do not minify"
+msgstr ""
+
+#: minify-settings.php:117
+msgid "Show minify errors through FirePHP"
+msgstr ""
+
+#: minify-settings.php:126
+msgid "Local Files Minification"
+msgstr ""
+
+#: minify-settings.php:127
+msgid "JavaScript files to exclude from minify (line delimited)."
+msgstr ""
+
+#: minify-settings.php:128
+msgid "CSS files to exclude from minify (line delimited)."
+msgstr ""
+
+#: minify-settings.php:129
+msgid "URIs on which WP-Minify-Fix parsing will be disabled (line delimited)"
+msgstr ""
+
+#: minify-settings.php:138
+msgid "Non-Local Files Minification"
+msgstr ""
+
+#: minify-settings.php:139
+msgid "Enable minification on external files"
+msgstr ""
+
+#: minify-settings.php:140
+msgid "Not recommended unless you want to exclude a bunch of external .js/.css files"
+msgstr ""
+
+#: minify-settings.php:141
+msgid "External JavaScript files to include into minify."
+msgstr ""
+
+#: minify-settings.php:142
+#: minify-settings.php:145
+msgid "Only useful if \"Minification on external files\" is unchecked"
+msgstr ""
+
+#: minify-settings.php:143
+#: minify-settings.php:146
+#: minify-settings.php:184
+msgid "more info"
+msgstr ""
+
+#: minify-settings.php:144
+msgid "External CSS files to include into minify."
+msgstr ""
+
+#: minify-settings.php:153
+msgid "Caching"
+msgstr ""
+
+#: minify-settings.php:154
+msgid "Cache expires after every"
+msgstr ""
+
+#: minify-settings.php:155
+msgid "seconds"
+msgstr ""
+
+#: minify-settings.php:156
+msgid "Manually Clear Cache"
+msgstr ""
+
+#: minify-settings.php:165
+msgid "JavaScript Placement"
+msgstr ""
+
+#: minify-settings.php:166
+msgid "In the header, and if necessary also in the footer (recommended)"
+msgstr ""
+
+#: minify-settings.php:167
+msgid "Everything in the header"
+msgstr ""
+
+#: minify-settings.php:168
+msgid "Everything in the footer"
+msgstr ""
+
+#: minify-settings.php:174
+msgid "Tweaking/Tuning"
+msgstr ""
+
+#: minify-settings.php:175
+msgid "Use \"pretty\" URL\""
+msgstr ""
+
+#: minify-settings.php:176
+msgid "i.e. use \"wp-minify-fix/cache/1234abcd.js\" instead of \"wp-minify-fix/min/?f=file1.js,file2.js,...,fileN.js\""
+msgstr ""
+
+#: minify-settings.php:182
+msgid "Add the HTML5 async tag"
+msgstr ""
+
+#: minify-settings.php:183
+msgid "Only for the header"
+msgstr ""
+
+#: minify-settings.php:190
+msgid "Force all JavaScript/CSS calls to be HTTPS on HTTPS pages"
+msgstr ""
+
+#: minify-settings.php:197
+msgid "Automatically set your Minify base per siteurl setting (recommended)"
+msgstr ""
+
+#: minify-settings.php:198
+msgid "Extra arguments to pass to minify engine. This value will get append to calls to URL \"wp-minify-fix/min/?f=file1.js,file2.js,...,fileN.js\"."
+msgstr ""
+
+#: minify-settings.php:199
+msgid "e.g. You can specify this value to be b=somepath to specify the base path for all files passed into Minify."
+msgstr ""
+
+#: minify-settings.php:210
+msgid "Save Changes"
+msgstr ""
+
+#: minify-settings.php:211
+msgid "Default Settings"
+msgstr ""
+
+#: minify.php:322
+msgid "Cache directory is not writable. Please grant your server write permissions to the directory"
+msgstr ""
+
+#: minify.php:330
+msgid "Minify Engine config.php is not writable. Please grant your server write permissions to file"
+msgstr ""
+
+#: minify.php:337
+msgid "Some option settings are missing (possibly from plugin upgrade)."
+msgstr ""
+
+#: minify.php:356
+msgid "Minify Settings"
+msgstr ""
+
+#: minify.php:403
+msgid "Error: Could not fetch and cache URL"
+msgstr ""
+
+#: minify.php:404
+msgid "You might need to exclude this file in WP Minify options."
+msgstr ""
